@@ -1,0 +1,8 @@
+route handlers
+located inside of the app directory, normally app/api/newroute/route.ts
+
+creating route app/api/echo/route.ts - request: (http://localhost:3000/api/echo?name=Dave&instrument=guitar)
+
+dynamic route handlers (anything but GET)
+creating feedback and thankyou pages
+creating api/feedback/route.ts - processes feedback form data on request (console.log on the server)
